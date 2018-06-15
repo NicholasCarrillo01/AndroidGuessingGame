@@ -3,7 +3,7 @@ package com.example.nichilascarrillo.guessinggame;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class resultsActivity extends AppCompatActivity {
+public class ResultsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".gameActivity">
+    tools:context=".GameActivity">
 
     <TextView
         android:id="@+id/instruction_textView"
@@ -57,7 +57,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="232dp"
         android:backgroundTint="@color/colorAccent"
-        android:text="SUBMIT"
+        android:text="@string/submit"
         android:textColor="@android:color/holo_green_light"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"

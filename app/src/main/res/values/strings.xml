@@ -5,4 +5,7 @@
     <string name="start">START</string>
     <string name="guess_a_number">guess a number</string>
     <string name="_1_100">1 - 100</string>
+    <string name="you_won">YOU WON!!!</string>
+    <string name="winning_number">The Winning Number Was %1$d</string>
+    <string name="submit">SUBMIT</string>
 </resources>
