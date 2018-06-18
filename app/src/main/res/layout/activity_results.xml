@@ -7,7 +7,7 @@
     tools:context=".ResultsActivity">
 
     <TextView
-        android:id="@+id/results_textview"
+        android:id="@+id/Resultstextview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
@@ -27,13 +27,13 @@
         android:text="@string/winning_number"
         android:textSize="18sp"
         android:visibility="invisible"
-        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/winning_imageview"
         app:layout_constraintHorizontal_bias="0.478"
-        app:layout_constraintStart_toStartOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/results_textview" />
+        app:layout_constraintStart_toStartOf="@+id/winning_imageview"
+        app:layout_constraintTop_toBottomOf="@+id/Resultstextview" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/winning_imageview"
         android:layout_width="277dp"
         android:layout_height="277dp"
         android:layout_marginTop="8dp"
@@ -44,7 +44,7 @@
         app:srcCompat="@drawable/thumb" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/restart_Button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -54,5 +54,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/winning_imageview" />
 </android.support.constraint.ConstraintLayout>
